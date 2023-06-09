@@ -5,8 +5,168 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Cortes Escobar's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    Hello World!
+    <div class="wrapper retro-wrapper">
+        <img id="noise" alt="">
+        <div class="header">
+            <img src="./assets/images/world.gif" id="world-gif" alt="">
+            <div class="my-name">
+                Carlos Cortes Escobar
+            </div>
+            <div class="sound-engineer">
+                <div class="my-title">Software Engineer</div>
+                <div class="audio">
+                    <i class="fa-solid fa-volume-off volume-off"></i>
+                    <i class="fa-solid fa-volume-high volume-on" style="visibility: hidden;"></i>
+                    <audio class="player" src="./assets/audio/bg.mp3" autoplay loop></audio>
+                </div>
+            </div>
+            <br>
+            <div class="my-contact">
+                <div class="my-address">347 Monmouth Ave N.</div>
+                <br>
+                <div class="my-state">Monmouth, OR 97361</div>
+                <br>
+                <div class="my-phone">+1 (605) 505-0013</div>
+                <br>
+                <div class="my-email">ccortesescobar19@mail.wou.edu</div>
+            </div>
+            <br>
+            <div class="my-externals">
+                <a class="external-a" href="https://github.com/CarlosCortesEscobar/" >
+                    <i class="fa-brands fa-github" id="github"></i>
+                </a>
+                <a class="external-a" href="https://www.linkedin.com/in/carlos-cortes-escobar-22015b1b5/">
+                    <i class="fa-brands fa-linkedin" id="linkedin"></i>
+                </a>
+                <a class="external-a" href="https://apple.com/">
+                    <i class="fa-brands fa-apple" id="apple"></i>
+                </a>
+            </div>
+        </div>
+        <div class="body">
+            <div class="edu">
+                <div class="edu-label">Education</div>
+                <div class="srow">
+                    <div class="school">Western Oregon University</div>
+                    <div class="school-loc">Monmouth, OR</div>
+                </div>
+                <div class="mrow">
+                    <div class="major">Bachelor of Science, Computer Science</div>
+                    <div class="grad-date">June, 2023</div>
+                </div>
+                <div class="arow">
+                    <div class="accol">Summa Cum Laude</div>
+                    <div class="accol">Honor Roll</div>
+                    <div class="accol">GPA 3.8</div>
+                    <div class="accol">Full Tuition Academic Scholarship</div>
+                </div>
+            </div>
+            <br>
+            <div class="skills">
+                <div class="skills-label">Skills</div>
+                <div class="langs">
+                    <div class="lang">
+                        <i class="fa-brands fa-python lang-icon"></i>
+                        Python
+                    </div>
+                    <div class="lang">
+                        <i class="fa-brands fa-square-js"></i>
+                        JavaScript
+                    </div>
+                    <div class="lang">
+                        <i class="fa-brands fa-node"></i>
+                        Node.js
+                    </div>
+                    <div class="lang">
+                        <i class="fa-brands fa-react"></i>
+                        React
+                    </div>
+                    <div class="lang">
+                        <i class="fa-brands fa-vuejs"></i>
+                        Vue
+                    </div>
+                    <div class="lang">
+                        <i class="fa-brands fa-html5"></i>
+                        Svelte
+                    </div>
+                    <div class="lang">
+                        <i class="fa-brands fa-swift"></i>
+                        Swift
+                    </div>
+                    <div class="lang">
+                        <i class="fa-brands fa-rust"></i>
+                        Rust
+                    </div>
+                    <div class="lang">
+                        <i class="fa-brands fa-java"></i>
+                        Java
+                    </div>
+
+                </div>
+            </div>
+            <div class="projects">
+                <div class="proj-label">Projects</div>
+                <div class="project">
+                    <img src="./assets/images/sinScreenshot.jpeg" alt="" class="proj-img">
+                    <div class="proj-details">
+                        <div class="proj-title"> <span><img src="./assets/images/diamond.gif" width="5%" alt=""></span> Steam Info Network </div>
+                        <div class="proj-desc">
+                            A year-long capstone project meant to connect Steam users and provide easier tools to navigate their Steam accounts, game achievements, and more.
+                            While also placing emphasis on competition between your friends to reach achievements in games as fast as possible. Easily view earned achievements for the games you own, as well as the achievements your friends have earned.
+                            This easy-to-use application utilizes OpenAI's ChatGPT to receive summarized news for the titles you love and a messaging platform to communicate seemlessly with others. Join teams and earn badges for gathering the most points during competitions.
+                            Source code available <a href="https://github.com/CarlosCortesEscobar/ProjectTeamPlus/tree/main">here</a>.
+                        </div>
+                        <div class="proj-skills">
+                            Tech Used:
+                            <div class="proj-skill">.NET MVC</div>
+                            <div class="proj-skill">Fullstack Development</div>
+                            <div class="proj-skill">Artificial Intellgence</div>
+                            <div class="proj-skill">RESTful APIs</div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="project">
+                    <div class="proj-details">
+                        <div class="proj-title"> <span><img src="./assets/images/diamond.gif" width="5%" alt=""></span> TikTok Plays Nintendo </div>
+                        <div class="proj-desc">
+                        A quick summertime project, TikTok Live data gathered from a 3rd party
+                        Python library, was used to determine the input that was sent to a Nintendo Switch. 
+                        The goal was to complete various stages of different Nintendo games while at the same time receiving TikTok Gifts from Live viewers, 
+                        that would change the pace of the challenges according to the value of the Gift.
+                        The takeaway? From Captain Toad to Smash Bros, TikTok working as a collective doesn't perform as good as you would hope.</div>
+                        <div class="proj-skills">
+                            Tech Used:
+                            <div class="proj-skill">Python</div>
+                            <div class="proj-skill">JavaScript</div>
+                            <div class="proj-skill">TikTok API</div>
+                            <div class="proj-skill">NXBT API</div>
+                        </div>
+                    </div>
+                    <img src="./assets/wata.jpg" alt="" class="proj-img">
+                </div>
+                <div class="project">
+                    <img src="./assets/harrier.jpeg" alt="" class="proj-img">
+                    <div class="proj-details">
+                        <div class="proj-title"> <span><img src="./assets/images/diamond.gif" width="5%" alt=""></span> Shoppy Drift </div>
+                        <div class="proj-desc">
+                            A mobile game for Android and iOS, built using Unity
+                        </div>
+                        <div class="proj-skills">
+                            Tech Used:
+                            <div class="proj-skill">.NET MVC</div>
+                            <div class="proj-skill">Fullstack Development</div>
+                            <div class="proj-skill">Artificial Intellgence</div>
+                            <div class="proj-skill">RESTful APIs</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
