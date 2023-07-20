@@ -4,10 +4,21 @@ body {
 }
 
 .wrapper {
-    display: flex;
-
+    position: relative;
+    width: 100%;
 }
 
 .bg {
     width: 100%;
+    height: auto;
+}
+
+.kfoo {
+    height: 2.2%;
+    width: 3%;
+    border-radius: 50%;
+    position: absolute;
+    top: 15.7%;
+    left: 22.1%;
+    transform: translate(-50%, -50%);
 }
