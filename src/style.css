@@ -16,8 +16,8 @@ body {
 .kfoo {
     height: 5.1%;
     width: 2.8%;
-    opacity: 50%;
-
+    /* opacity: 50%; */
+    background-color: red;
     border-radius: 50%;
     position: absolute;
     z-index: 2;
