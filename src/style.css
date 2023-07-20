@@ -1,236 +1,26 @@
-html {
-    background-color:#061010;
-}
-
 body {
-    background-color: #061010;
+    margin: 0px;
+    background-color: #000;
 }
 
 .wrapper {
     display: flex;
-    justify-content: center;
-    flex-flow: column wrap;
-    align-items: center;
+
 }
 
-@font-face {
-    font-family: NeueBit;
-    src: url('./assets/fonts/NeueBit-Bold.otf');
+.bg {
+    width: 100%;
 }
 
-.retro-wrapper {
-    font-family: NeueBit;
-    font-size: 1.75rem;
-}
 
-a {
-    text-decoration: none;
-    color: #78EF55;
-}
+.kfoo {
+    height: 5.1%;
+    width: 2.8%;
+    opacity: 50%;
 
-.volume-on, .volume-off {
-    font-size: 1.25rem;
+    border-radius: 50%;
     position: absolute;
-}
-
-.my-name {
-    margin-top: 1.5rem;
-    color: #fff;
-    font-size: 4rem;
-}
-
-.my-title {
-    margin-top: 1.5rem;
-    color: #fff;
-    font-size: 3rem;
-}
-
-.audio {
-    color: #fff;
-    padding-left: 1rem;
-}
-
-.sound-engineer {
-    display: flex;
-    align-items: center;
-}
-
-.my-contact {
-    margin-top: 1.5rem;
-    color: #fff;
-    font-size: 2.5rem;
-    display: flex;
-    justify-content: center;
-    flex-flow: row;
-}
-
-.my-address, .my-state, .my-phone, .my-email {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
-
-#noise {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 5;
-    background: url('./assets/images/noise.gif');
-    opacity: .1;
-    pointer-events: none;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-}
-
-#world-gif {
-    height: auto;
-    width: 12.5%;
-}
-
-
-.my-externals {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-size: 3rem;
-}
-
-.external-a:visited:first-child {
-    color: #78EF55;
-}
-
-#github, #linkedin, #apple {
-    font-size: 2.5rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-}
-
-.body {
-    width: 100%;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    flex-flow: column wrap;
-    align-items: center;
-}
-
-.edu {
-    margin-top: 2rem;
-    width: 50%;
-    font-size: 2rem;
-}
-
-.edu-label {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-.srow, .mrow{
-    display: flex;
-    height: 5rem;
-    justify-content: space-between;
-    align-content: space-between;
-}
-
-.arow {
-    display: flex;
-    justify-content: space-between;
-}
-
-.accol {
-    padding-right: 2rem;
-}
-
-
-.skills, .projects {
-    margin-top: 2rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-}
-
-.skills {
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.skills-label {
-    text-align: center;
-}
-
-.langs {
-    display: flex;
-    align-items: center;
-    flex-flow: row nowrap;
-    font-size: 3rem;
-}
-
-.fa-brands {
-    font-size: 3rem;
-    padding-bottom: 0.75rem;
-}
-
-.lang {
-    display: flex;
-    align-items: center;
-    flex-flow: column wrap;
-    padding: 2rem;
-    color: #78EF55;
-}
-
-.projects {
-    margin-top: 2rem;
-    display: flex;
-    width: 100%;
-    flex-flow: column;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-.proj-label {
-    margin-bottom: 2rem;
-}
-
-.project {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-evenly;
-    width: 75%;
-}  
-
-.proj-details {
-    width: 50%;
-}
-
-.proj-title {
-    text-align: center;
-}
-
-.proj-img {
-    width: 44%;
-    border-radius: 10px;
-}
-
-.proj-desc {
-    width: 100%;
-    line-height: 1.5rem;
-}
-
-.proj-skills {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-}
-
-.proj-skill {
-    padding: 1rem;
+    z-index: 2;
+    left: 20.71%;
+    top: 37.6%;
 }
