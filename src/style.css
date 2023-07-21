@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Editorial New';
+    src: url('./assets/fonts/HEXCO.otf'); 
+}
+
 body {
     margin: 0px;
     background-color: #000;
@@ -21,4 +26,55 @@ body {
     top: 15.7%;
     left: 22.1%;
     transform: translate(-50%, -50%);
+}
+
+.carbit, .ffleet {
+    height: 2.9%;
+    width: 4.7%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.carbit {
+    top: 49.2%;
+    left: 80.4%;
+}
+
+.ffleet {
+    top: 83.7%;
+    left: 51.5%;
+}
+
+.scroll-container {
+    height: 3.5rem;
+    width: 20%;
+    top: 92.5%;
+    left: 29.7%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.scroll-text {
+    font-family: 'Editorial New';
+    font-size: 2.5rem;
+    line-height: 1;
+    white-space: nowrap; 
+    transform: translateX(100%);
+    animation: scroll-anime 8s linear infinite;
+}
+
+@keyframes scroll-anime {
+    from {
+    transform: translateX(35%);
+    }
+    to {
+    transform: translateX(-100%);
+    }
 }
