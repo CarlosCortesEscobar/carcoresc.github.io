@@ -28,6 +28,23 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.spkr {
+    height: 1.3%;
+    position: absolute;
+    top: 8%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+}
+
+.spkr:hover {
+    cursor: pointer;
+}
+
+.spkr:first-of-type {
+    left: 58.5%;
+    visibility: visible;
+}
+
 .carbit, .ffleet {
     height: 2.9%;
     width: 4.7%;
